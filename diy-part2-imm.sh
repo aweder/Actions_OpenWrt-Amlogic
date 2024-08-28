@@ -28,7 +28,7 @@ sed -i 's/invalid users = root/#invalid users = root/g' feeds/packages/net/samba
 # 拉取软件包
 
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
-git clone https://github.com/kenzok8/small-package package/small-package
+git clone  https://github.com/kenzok8/openwrt-packages package/kenzok8
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
